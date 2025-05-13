@@ -17,7 +17,7 @@ export default class PerplexityProvider extends BaseProvider {
       name: 'llama-3.1-sonar-small-128k-online',
       label: 'Sonar Small Online',
       provider: 'Perplexity',
-      maxTokenAllowed: 8192,
+      maxTokenAllowed: 128000,
     },
     {
       name: 'llama-3.1-sonar-large-128k-online',

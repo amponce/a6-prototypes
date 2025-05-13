@@ -129,4 +129,12 @@ export const STARTER_TEMPLATES: Template[] = [
     tags: ['angular', 'typescript', 'frontend', 'spa'],
     icon: 'i-bolt:angular',
   },
+  {
+    name: 'VA Starter',
+    label: 'Veterans Affairs Starter',
+    description: 'Veterans Affairs (VA) compliant starter template with accessibility and security best practices',
+    githubRepo: 'amponce/va-application-template',
+    tags: ['government', 'veterans-affairs', 'va', 'accessibility', '508-compliant', 'security'],
+    icon: 'i-bolt:stars',
+  },
 ];

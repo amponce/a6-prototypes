@@ -27,7 +27,14 @@ dist-ssr
 /build
 functions/build/
 .env.local
+.env*
 .env
+.env.development
+.env.production
+.env.test
+.env.test.local
+.env.test.local.example
+.env.test.local.example
 .dev.vars
 *.vars
 .wrangler

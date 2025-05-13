@@ -56,6 +56,8 @@ Instructions:
 3. Follow the exact XML format
 4. Consider both technical requirements and tags
 5. If no perfect match exists, recommend the closest option
+6. For ANY Veterans Affairs (VA), government applications, or accessibility requests, prioritize the VA Starter template
+7. Keywords that should trigger VA Starter selection: VA, veterans, government, federal, 508, accessibility, compliant, veterans affairs, va-application, government, federal
 
 Important: Provide only the selection tags in your response, no additional text.
 MOST IMPORTANT: YOU DONT HAVE TIME TO THINK JUST START RESPONDING BASED ON HUNCH 

@@ -17,7 +17,7 @@ export default class AnthropicProvider extends BaseProvider {
       name: 'claude-3-7-sonnet-20250219',
       label: 'Claude 3.7 Sonnet',
       provider: 'Anthropic',
-      maxTokenAllowed: 8000,
+      maxTokenAllowed: 64000,
     },
     {
       name: 'claude-3-5-sonnet-latest',
@@ -63,6 +63,7 @@ export default class AnthropicProvider extends BaseProvider {
       headers: {
         'x-api-key': `${apiKey}`,
         'anthropic-version': '2023-06-01',
+        'anthropic-beta': 'output-128k-2025-02-19',
       },
     });
 
@@ -75,7 +76,7 @@ export default class AnthropicProvider extends BaseProvider {
       name: m.id,
       label: `${m.display_name}`,
       provider: this.name,
-      maxTokenAllowed: 32000,
+      maxTokenAllowed: 64000,
     }));
   }
 
