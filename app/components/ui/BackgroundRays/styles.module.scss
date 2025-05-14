@@ -37,13 +37,18 @@
   :global(html[data-theme='light']) & {
     mix-blend-mode: multiply;
     opacity: 0.4;
+    background: none !important; /* Remove background in light mode */
   }
 }
 
 .ray1 {
   width: 60vw;
   height: 80vh;
-  background: var(--ray-gradient-primary);
+  
+  :global(html[data-theme='dark']) & {
+    background: var(--ray-gradient-primary);
+  }
+  
   transform: rotate(65deg);
   top: -20vh;
   left: -10vw;
@@ -55,7 +60,11 @@
 .ray2 {
   width: 40vw;
   height: 60vh;
-  background: var(--ray-gradient-secondary);
+  
+  :global(html[data-theme='dark']) & {
+    background: var(--ray-gradient-secondary);
+  }
+  
   transform: rotate(-30deg);
   top: -10vh;
   left: 15vw;
@@ -67,7 +76,11 @@
 .ray3 {
   width: 50vw;
   height: 40vh;
-  background: var(--ray-gradient-accent);
+  
+  :global(html[data-theme='dark']) & {
+    background: var(--ray-gradient-accent);
+  }
+  
   top: -12vh;
   left: 40vw;
   filter: blur(65px);
@@ -78,7 +91,11 @@
 .ray4 {
   width: 35vw;
   height: 45vh;
-  background: var(--ray-gradient-secondary);
+  
+  :global(html[data-theme='dark']) & {
+    background: var(--ray-gradient-secondary);
+  }
+  
   top: -18vh;
   left: 65vw;
   filter: blur(55px);
@@ -89,7 +106,11 @@
 .ray5 {
   width: 30vw;
   height: 50vh;
-  background: var(--ray-gradient-primary);
+  
+  :global(html[data-theme='dark']) & {
+    background: var(--ray-gradient-primary);
+  }
+  
   transform: rotate(-45deg);
   top: -8vh;
   left: 80vw;
@@ -101,7 +122,11 @@
 .ray6 {
   width: 40vw;
   height: 70vh;
-  background: var(--ray-gradient-accent);
+  
+  :global(html[data-theme='dark']) & {
+    background: var(--ray-gradient-accent);
+  }
+  
   transform: rotate(75deg);
   top: -15vh;
   left: 55vw;
@@ -113,7 +138,11 @@
 .ray7 {
   width: 45vw;
   height: 60vh;
-  background: var(--ray-gradient-primary);
+  
+  :global(html[data-theme='dark']) & {
+    background: var(--ray-gradient-primary);
+  }
+  
   transform: rotate(45deg);
   top: -10vh;
   left: 25vw;
@@ -125,7 +154,11 @@
 .ray8 {
   width: 38vw;
   height: 55vh;
-  background: var(--ray-gradient-secondary);
+  
+  :global(html[data-theme='dark']) & {
+    background: var(--ray-gradient-secondary);
+  }
+  
   transform: rotate(-60deg);
   top: -12vh;
   left: 50vw;

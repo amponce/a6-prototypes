@@ -17,12 +17,13 @@ export function Header() {
     >
       <div className="flex items-center gap-2 z-logo text-bolt-elements-textPrimary cursor-pointer">
         <div className="i-ph:sidebar-simple-duotone text-xl" />
-        <a href="/" className="text-2xl font-semibold text-accent flex items-center">
+        <a href="/" className="text-2xl font-semibold text-accent flex items-center ml-2">
           {/* <span className="i-bolt:logo-text?mask w-[46px] inline-block" /> */}
-          <img src="/logo-light-styled.png" alt="logo" className="w-[90px] inline-block dark:hidden" />
-          <img src="/logo-dark-styled.png" alt="logo" className="w-[90px] inline-block hidden dark:block" />
+          <img src="/agilesix_logo.jpeg" alt="logo" className="w-[40px] inline-block dark:hidden" />
+          <img src="/agilesix_logo.jpeg" alt="logo" className="w-[40px] inline-block hidden dark:block" />
         </a>
-      </div>
+        <h1 className="text-3xl font-semibold text-accent flex items-center">PROTOTPYE KIT</h1>
+     </div>
       {chat.started && ( // Display ChatDescription and HeaderActionButtons only when the chat has started.
         <>
           <span className="flex-1 px-4 truncate text-center text-bolt-elements-textPrimary">
